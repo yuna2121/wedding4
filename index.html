@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 청첩장</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="invitation-container">
+        <header class="invitation-header">
+            <p>신랑</p>
+            <h2>김수현</h2>
+            <p>신부</p>
+            <h2>김지원</h2>
+        </header>
+
+        <div class="invitation-image">
+            <img src="wedding-photo.jpg" alt="웨딩 사진">
+            <p>Oh! Wedding Day</p>
+        </div>
+
+        <div class="caption">
+            <p>wedding gallery</p>
+            <h3>두 사람의 사랑을 담은 순간</h3>
+        </div>
+
+        <div class="gallery">
+            <div class="slides">
+                <img src="wedding-photo1.jpg" alt="웨딩 사진 1">
+                <img src="wedding-photo2.jpg" alt="웨딩 사진 2">
+                <img src="wedding-photo3.jpg" alt="웨딩 사진 3">
+                <img src="wedding-photo4.jpg" alt="웨딩 사진 4">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+        <footer class="invitation-footer">
+            <p>2024년 10월 21일 토요일 오후 1시<br>내곁본당 컨벤션센터 1층 그랜드홀</p>
+        </footer>
+    </div>
+</body>
+</html>
